@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@+id/merge_sales"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tv_table_title_0"
+              style="@style/TextView_Table_Right"
+              android:text="列标题0"/>
+
+    <TextView android:id="@+id/tv_table_title_1"
+              style="@style/TextView_Table_Right"
+              android:text="列标题1"/>
+
+    <TextView android:id="@+id/tv_table_title_2"
+              style="@style/TextView_Table_Right"
+              android:text="列标题2"/>
+
+    <TextView android:id="@+id/tv_table_title_3"
+              style="@style/TextView_Table_Right"
+              android:text="列标题3"/>
+
+    <TextView android:id="@+id/tv_table_title_4"
+              style="@style/TextView_Table_Right"
+              android:text="列标题4"/>
+
+    <TextView android:id="@+id/tv_table_title_5"
+              style="@style/TextView_Table_Right"
+              android:text="列标题5"/>
+
+    <TextView android:id="@+id/tv_table_title_6"
+              style="@style/TextView_Table_Right"
+              android:text="列标题6"/>
+
+    <TextView android:id="@+id/tv_table_title_7"
+              style="@style/TextView_Table_Right"
+              android:text="列标题7"/>
+
+    <TextView android:id="@+id/tv_table_title_8"
+              style="@style/TextView_Table_Right"
+              android:text="列标题8"/>
+
+    <TextView android:id="@+id/tv_table_title_9"
+              style="@style/TextView_Table_Right"
+              android:text="列标题9"/>
+
+    <TextView android:id="@+id/tv_table_title_10"
+              style="@style/TextView_Table_Right"
+              android:text="列标题10"/>
+
+    <TextView android:id="@+id/tv_table_title_11"
+              style="@style/TextView_Table_Right"
+              android:text="列标题11"/>
+
+    <TextView android:id="@+id/tv_table_title_12"
+              style="@style/TextView_Table_Right"
+              android:text="列标题12"/>
+
+    <TextView android:id="@+id/tv_table_title_13"
+              style="@style/TextView_Table_Right"
+              android:text="列标题13"/>
+
+    <TextView android:id="@+id/tv_table_title_14"
+              style="@style/TextView_Table_Right"
+              android:text="列标题14"/>
+
+
+</merge>

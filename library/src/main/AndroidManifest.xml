@@ -1,0 +1,8 @@
+<manifest package="moe.feng.alipay.zerosdk"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity android:name="moe.feng.alipay.zerosdk.AboutMeActivity">
+        </activity>
+    </application>
+</manifest>

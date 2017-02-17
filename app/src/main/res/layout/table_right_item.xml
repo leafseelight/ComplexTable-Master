@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="horizontal"
+>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item0"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-0"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item1"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-1"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item2"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-2"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item3"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-3"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item4"
+        style="@style/TextView_Table_Right"
+        android:gravity="center"
+        tools:text="列数-4"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item5"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-5"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item6"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-6"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item7"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-7"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item8"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-8"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item9"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-9"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item10"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-10"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item11"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-11"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item12"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-12"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item13"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-13"/>
+
+    <TextView
+        android:id="@+id/tv_table_content_right_item14"
+        style="@style/TextView_Table_Right"
+        tools:text="列数-14"/>
+
+</LinearLayout>

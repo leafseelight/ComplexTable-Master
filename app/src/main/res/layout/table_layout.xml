@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 此部分是标题部分 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:orientation="horizontal">
+
+        <!-- 左侧标题的父容器 -->
+
+        <TextView
+            android:id="@+id/tv_table_title_left"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:text="总标题"/>
+
+        <!-- 右侧标题的父容器可实现水平滚动 -->
+        <com.leaf.complextable.widget.SyncHorizontalScrollView
+            android:id="@+id/title_horsv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/right_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <!--<include layout="@layout/table_sales_right_tab"/>-->
+            </LinearLayout>
+        </com.leaf.complextable.widget.SyncHorizontalScrollView>
+    </LinearLayout>
+
+    <!-- 此部分是内容部分 用ScrollView实现上下滚动效果 -->
+    <com.leaf.complextable.widget.pullrefresh.AbPullToRefreshView
+        android:id="@+id/pulltorefreshview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/pull_refresh_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- 左侧内容的父容器 -->
+                <com.leaf.complextable.widget.MyListView
+                    android:id="@+id/left_container_listview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scrollbars="none">
+                </com.leaf.complextable.widget.MyListView>
+
+                <!-- 右侧内容的父容器 实现水平滚动 -->
+                <com.leaf.complextable.widget.SyncHorizontalScrollView
+                    android:id="@+id/content_horsv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+                    <com.leaf.complextable.widget.MyListView
+                        android:id="@+id/right_container_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:scrollbars="none">
+                    </com.leaf.complextable.widget.MyListView>
+                </com.leaf.complextable.widget.SyncHorizontalScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </com.leaf.complextable.widget.pullrefresh.AbPullToRefreshView>
+</LinearLayout>
