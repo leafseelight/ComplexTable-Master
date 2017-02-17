@@ -17,7 +17,7 @@
 
 ### 如能荣幸给您带来帮助，并且乐意的话，可以在Demo中关于我的界面，支持一下我→ 微信or支付宝orPaypal
 
-* <a href="./art/wechatpay.png"><img src="./art/wechatpay.png" width="10%"/></a>
+* <a href="./art/wechatpay.png"><img src="./art/wechatpay.png" width="20%"/></a>
 * <a href="intent://platformapi/startapp?saId=10000007&clientVersion=3.7.0.0718&qrcode=https://qr.alipay.com/aex03674qm0prhhrtepjcbb&_t=1472443966571#Intent;scheme=alipayqr;package=com.eg.android.AlipayGphone;end">支付宝打赏</a>
 * <a href="https://www.paypal.me/yejg">Paypal.me</a>
 
