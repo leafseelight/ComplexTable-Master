@@ -34,11 +34,16 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/libraries
+*.ipr
+*.iws
 .idea/
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+bin/
 
 # Keystore files
 *.jks
